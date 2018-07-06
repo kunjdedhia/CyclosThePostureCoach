@@ -7,3 +7,7 @@ Cyclos tracks the cyclist's pelvic flexion in real-time using motion sensors pla
 ![summary](https://user-images.githubusercontent.com/40699541/42361981-d0a67918-810e-11e8-8ae7-c07ec6ddb1f3.png)
 # How we built it
 To build the hardware, I used a triaxial Accelerometer, a triaxial Gyroscope and a magnetometer which wirelessly connected to a smartphone via Bluetooth to store and compute the data. The raw sensor values processed it with an ATmega328 microcontroller which ran on a 3.7v 1000mAh Lithium ion Polymer battery. The sensors collect data at a frequency approximately of 6Hz. 
+![pcb design](https://user-images.githubusercontent.com/40699541/42362700-1e33e6ea-8112-11e8-87b2-e1eaf60e0a14.jpg)
+The interface was scripted in Java. The libraries for statistical models were initially tested in R and then ported to Android Studio.
+# What's next for Cyclos
+Apart from cycling the applications are endless, the feedback mechanism can be used by everyone prone to injuries - people who drive vehicles, who weight train in gyms and office workers doing long hours of desk jobs, the innovation can be used to monitor and correct daily actions.
